@@ -23,7 +23,7 @@ const App = (props) => {
       <h1>upload your file here</h1>
       <input
         type="file"
-        name="image"
+        name="file"
         onchange={(e) => setFile(e.target.files)}
       />
       <button type="submit">upload</button>
