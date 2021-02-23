@@ -55,14 +55,13 @@ const FilesList = () => {
                   <td className="file-title">{title}</td>
                   <td className="file-description">{description}</td>
                   <td>
-                    <a
-                      href="#/"
+                    <button
                       onClick={() =>
                         downloadFile(_id, file_path, file_mimetype)
                       }
                     >
                       Download
-                    </a>
+                    </button>
                   </td>
                 </tr>
               )
