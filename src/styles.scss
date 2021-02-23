@@ -72,17 +72,18 @@ h1,
 .image-preview {
   height: inherit;
   margin-left: 5%;
+  width: auto;
 }
 
 .preview-image {
-  width: 100%;
-  height: inherit;
-  display: block;
-  margin-bottom: 10px;
+      width: auto;
+    display: block;
+    margin-bottom: 10px;
+    height: 100%;
 }
 
 .preview-message {
-  display: flex;
+  display: flex;   
   justify-content: center;
   align-items: center;
   margin-left: 5%;
@@ -125,6 +126,7 @@ h1,
   .image-preview {
     margin-left: 0;
     height: 300px;
+    width: auto;
   }
   .upload-section {
     height: unset;
